@@ -1,6 +1,6 @@
 buildscript {
   ext {
-    springBootVersion = '1.5.16.RELEASE'
+    springBootVersion = '1.5.22.RELEASE'
   }
   repositories {
  
@@ -41,4 +41,4 @@ dependencies {
   testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
-task wrapper(type: Wrapper) { gradleVersion = '4.3' }
+
